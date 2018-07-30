@@ -1,0 +1,23 @@
+#container {
+	height: 100%;
+	display: flex;
+	flex-direction: row;      /* 排列方向，默认为row（水平，从左到右） */
+	flex-wrap: nowrap;        /* 换行，默认nowrap（不换行） */
+	justify-content: center;  /* 对齐方式，默认值flex-start(左对齐) */
+	align-items: center;      /* 垂直轴上的对齐方式 */
+}
+
+form#form_login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 200px;
+	border: 2px solid #000;
+	border-radius: 0.5em;
+	box-shadow: 10px 10px 5px #888888;	
+}	
+.input_user,.input_password{
+	margin-bottom: 30px;
+}
